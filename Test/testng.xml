@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="2" >
 
-<test name="QA1">
+<!-- <test name="QA1">
  <parameter name="testType" value="Mobile" />
 	<parameter name="deviceName" value="Galaxy Tab S2" />
 	<parameter name="udid" value="3300e8c2774aa281" />
@@ -27,10 +27,10 @@
 		<classes>
 		<class name="Tests.Test1" />
 		</classes>
-</test>
+</test> -->
 
   
-<!-- <test name="QA2">
+ <test name="QA2">
 	<parameter name="testType" value="Desktop" />
 	<parameter name="deviceName" value="" />
 	<parameter name="udid" value="" />
@@ -53,7 +53,7 @@
 		<classes>
 		<class name="Tests.Test1" />
 		</classes>
-</test> -->
+</test>
 
  
 <!--  <test name="QA2">
