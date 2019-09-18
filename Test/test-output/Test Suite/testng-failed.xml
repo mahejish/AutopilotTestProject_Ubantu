@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="QA Automation LoginPageTest_CHROME(failed)">
+    <parameter name="reportName" value="SignUpPageTest_CHROME"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Qa.Test.SignUpPageTest">
+        <methods>
+          <include name="TearDwnTest"/>
+          <include name="tearDwn"/>
+          <include name="extentReportSetUp"/>
+          <include name="signUp_Validation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Qa.Test.SignUpPageTest -->
+    </classes>
+  </test> <!-- QA Automation LoginPageTest_CHROME(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

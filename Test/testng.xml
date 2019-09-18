@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2" >
+
+<test name="QA1">
+ <parameter name="testType" value="Mobile" />
+	<parameter name="deviceName" value="Galaxy Tab S2" />
+	<parameter name="udid" value="3300e8c2774aa281" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="platformVersion" value="6.0.1" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="noReset" value="true" />
+	<parameter name="reportName" value="ChromeTest_Mobile1" />
+		<classes>
+		<class name="Tests.Test1" />
+		</classes>
+</test>
+ <test name="QA2">
+ <parameter name="testType" value="Mobile" />
+	<parameter name="deviceName" value="Galaxy Tab A (2017)" />
+	<parameter name="udid" value="977ef435" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="platformVersion" value="8.0.1" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="noReset" value="true" />
+	<parameter name="reportName" value="ChromeTest_Mobile2" />
+		<classes>
+		<class name="Tests.Test1" />
+		</classes>
+</test>
+
+  
+<!-- <test name="QA2">
+	<parameter name="testType" value="Desktop" />
+	<parameter name="deviceName" value="" />
+	<parameter name="udid" value="" />
+	<parameter name="platformName" value="" />
+	<parameter name="platformVersion" value="" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="reportName" value="ChromeTest_Desktop1" />
+		<classes>
+		<class name="Tests.Test1" />
+		</classes>
+</test>
+<test name="QA3">
+  	<parameter name="testType" value="Desktop" />
+	<parameter name="deviceName" value="" />
+	<parameter name="udid" value="" />
+	<parameter name="platformName" value="" />
+	<parameter name="platformVersion" value="" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="reportName" value="ChromeTest_Desktop2" />
+		<classes>
+		<class name="Tests.Test1" />
+		</classes>
+</test> -->
+
+ 
+<!--  <test name="QA2">
+	<parameter name="browser" value="ff" />
+		<classes>
+		<class name="pack.testClass" />
+		</classes>
+</test>
+  -->
+</suite> 

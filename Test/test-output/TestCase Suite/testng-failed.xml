@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestCase Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QAtest(failed)">
+    <classes>
+      <class name="com.Qa.Test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="drpDwnValidation"/>
+        </methods>
+      </class> <!-- com.Qa.Test.HomePageTest -->
+    </classes>
+  </test> <!-- QAtest(failed) -->
+</suite> <!-- Failed suite [TestCase Suite] -->

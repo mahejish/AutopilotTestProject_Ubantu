@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="QA2(failed)">
+    <parameter name="reportName" value="ChromeTest_Desktop1"/>
+    <parameter name="platformVersion" value=""/>
+    <parameter name="testType" value="Desktop"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="udid" value=""/>
+    <parameter name="platformName" value=""/>
+    <parameter name="deviceName" value=""/>
+    <classes>
+      <class name="Tests.Test1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Tests.Test1 -->
+    </classes>
+  </test> <!-- QA2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
